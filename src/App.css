@@ -1,38 +1,215 @@
-.App {
+.form{
+  padding-right: 100px;
+};
+.input-group:hover{
+  margin-top: 200px !important;
+}
+.heading{
+  color: aqua;
+}
+.linkToroduct{
+  margin-top: 0px;
+  margin-left: 400px;
+  display: inline-block;
+  font-size: 15px;
+}
+.linkToProduct{
+  margin-top: 15px;
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 15px;
+}
+.linkToProduct:hover{
+  color: rgb(80, 177, 144);
+  cursor: pointer;
+}
+.linkToproduct:hover{
+  color: rgb(80, 177, 144);
+  cursor: pointer;
+}
+.linkToproduct{
+  margin-top: 15px;
+  margin-left: 20px;
+  display: inline-block;
+  font-size: 15px;
+}
+.Login:hover{
+  text-decoration: underline;
+}
+/* .card{
+  margin-top: 80px;
+  margin-left: 100px;
+  float: left;
+} */
+.carousel{
+  width: 800px;
+  height: 500px;
+  margin-left: 50px;
+}
+.detail{
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border: solid grey;
+  width: 800px;
+}
+.detail:hover{
+  border: solid black
+}
+.detailhead{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.about{
+  margin-left: 30px;
+}
+.firstName{
+  padding-left: 30px;
+}
+.secondName{
+  padding-left: 40px;
+}
+.thirdName{
+  padding-left: 100px;
+}
+.price{
+  border: solid gray;
+  margin-left: 900px;
+  margin-top:-740px;
+  border-radius: 5px;
+  width: 400px;
+}
+.price:hover{
+  border: solid black
+}
+.sellerdes{
+  border: solid gray;
+  margin-left: 900px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 400px;
+}
+.sellerdes:hover{
+  border: solid black;
+}
+.sellerabout{
+  margin-left: 20px;
+  font-size: 22px;
+}
+.Name{
+  padding-left: 50px;
+  margin-top: -140px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.Nameuser{
+  margin-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.phoneimg{
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.number{
+  margin-left: 140px;
+  margin-top: -25px;
+}
+.searchinput {
+  background-image: url('./images/search.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 650px; /* Full-width */
+  height: 38px;
+  margin-top: 13px;
+  margin-left: 10px;
+  border-radius: 4px;
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+.footercard{
+  margin-top: 50px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(0, 47, 52);
   color: white;
+  height: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.footermoredetail{
+  margin-top: 400px;
+  text-align: center;
+  background-color: rgb(0, 47, 52);
+  color: white;
+  height: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginpage{
+  padding-left: 105px;
+  border: solid 5px black;
+  /* width: 200px; */
+  border-radius: 15px;
+  margin-left: 450px;
+  margin-right: 450px;
+  height: 500px;
+  margin-top: 60px;
+  /* background-color: rgb(0, 183, 255); */
+}
+.btn{
+  width: 250px;
+}
+.btn1{
+  margin-top: 150px;
+}
+.btn2{
+  margin-top: 200px;
+}
+.postadd{
+  margin-left: 570px;
+  font-weight: bold;
+}
+.inputdiv{
+  border: 5px solid grey;
+  border-radius: 15px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+.Name{
+  margin-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.product{
+  margin-left: 50px;
+  padding-top: -50px;
+  padding-bottom: 50px;
+}
+.detailinput{
+  width: 600px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input#file {
+  display: inline-block;
+  width: 100px;
+  padding: 120px 0 0 0;
+  margin-left: 50px;
+  height: 10px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png') center center no-repeat #e4e4e4;
+  border-radius: 20px;
+  background-size: 60px 60px;
+}
+.btnsub{
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.upimg:hover{
+  cursor: pointer;
 }
