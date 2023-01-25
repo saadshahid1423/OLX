@@ -14,7 +14,7 @@ class Loginuser extends React.Component{
         return(
             <div className="loginpage">
                 <h1 style={{marginLeft: "75px",marginTop:"50px",textDecoration: "underline"}}>Login</h1>
-                {/* <button type="button" className="btn1 btn btn-outline-primary"><img style={{paddingRight: "20px"}} width="40px" height="20px" src="https://pngimg.com/uploads/google/google_PNG19635.png" />Login With Google</button><br></br> */}
+                <button type="button" className="btn1 btn btn-outline-primary"><img style={{paddingRight: "20px"}} width="40px" height="20px" src="https://pngimg.com/uploads/google/google_PNG19635.png" />Login With Google</button><br></br>
                 <button type="button" onClick={() => this.props.facebook_login(this.props.history)} className="btn2 btn btn-outline-primary"><img style={{paddingRight: "10px"}} src={fbicon} width="30px" height="20px" />Login With Facebook</button>
             </div>
         )
